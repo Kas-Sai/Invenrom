@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventrom</title>
+</head>
+<style>
+    .body{
+        background-color: white;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'nexaFont';
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+        padding-right:40px;
+        padding-top: 1px;
+    }
+    .header img{
+        width: 155px;
+        height: 55px;
+    }
+    .cont{
+        font-size: 22px;
+        word-spacing: 40px;
+    }
+    .hov:hover{
+        color: black;
+    }
+    
+    .back_img{
+        background-image: url(https://i.ibb.co/580Mh4L/background-layer.jpg);
+        height: 800px;
+    }
+    .b_point{
+        font-size: 45.5px;
+        color: white;
+        text-align: center;
+        padding: 195px;
+        flex-wrap: wrap;
+    }
+    .b_point a{
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+    }
+    .hv :hover{
+        color: black;
+    }
+    #detail{
+        display: flex;
+        justify-content: center;
+        padding-right: 100px;
+        font-size: 25px;
+        padding: 35px;
+        color: #225a17;
+        font-weight: bold;
+    }
+    .detail-1{
+        display: flex;
+        text-align: center;
+        padding-left: 240px;
+        color: gray;
+    }
+    .mv{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+
+    }
+    #mv-img{
+        width: 480px;
+        height: 350px;
+    }
+    .all{
+        background-color: rgb(240,240,240);
+    }
+    #award-title1{
+        display: flex;
+        justify-content: center;
+        font-size: 26px;
+        padding: 20px;
+        color: #225a17;
+        font-weight: bold;
+        font-family:' Calibri';
+    }
+    .a_ward{
+        display: flex;
+        justify-content: left;
+        padding: 40px;
+    }
+    .award{
+        display: flex;
+        flex-direction:column;
+        width: 300px;
+        height: 270px;
+        padding-left: 25px;
+    }
+    .b_award{
+        padding-left: 104px;
+        color: gray;
+    }
+    .b_award p{
+        font-size: 13px;
+    }
+    .award-title{
+        color: #161816;
+        font-size: 14px;
+    }
+
+    /* Contact area */
+    #contact-area{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding: 40px;
+        color: #225a17;
+        
+    }
+    .DT{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column wrap row;
+        margin: 0px 0px 40px 0px;
+    }
+    .form-c{
+        width: 350px;
+    }
+    .form{
+        width: 450px;
+    }
+    .location span{
+        line-height: 30px;
+    }
+    .loc-head{
+        margin: 0px 0px 30px;
+        font-size: 20px;
+    }
+    .cont1{
+       
+        justify-content: left;
+        align-items: center;
+    }
+    .cont1 span{ 
+        color: grey ;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    /* footer section */
+    .footer{
+        background-color: #085414;
+        color: white;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+        margin-bottom: 0px;
+        
+    }
+    .icon{
+        display: flex;
+        gap: 30px;
+    }
+    .footer img{
+        width: 32px;
+        height: 30px;
+    }
+    
+</style>
+<body>
+     <header class="header">
+              <img src="https://i.ibb.co/frQVPsv/logo.png" id="go-up">
+              <nav class="cont">
+                <ul>
+                    <a href="#detail" style="text-decoration: none; color: gray;" ><span class="hov" >About</span></a>
+                    <a href="#award-title1" style="text-decoration: none; color: gray;"><span class="hov" >Award</span></a>
+                    <a href="#contact-area" style="text-decoration: none; color: gray;"><span class="hov" >Contact</span></a>
+                </ul>
+              </nav>
+     </header>
+     <div class="back_img">
+        <div class="b_point">
+            <p> Bolt is an Internet Of Things Platform for enterprise <br> ready for Product and Solutions</p>
+           <nav class="hv"> <a href="https://www.boltiot.com/" >CLICK TO KNOW MORE</a></nav>
+        </div>
+        <div class="b_p"></div>
+     </div>
+     <div id="detail">
+        <span>ABOUT US</span>
+     </div>
+     <div class="detail-1">
+        <p>We are an award-winning IoT team that has extensive experience in enterprise IoT projects. 
+            Before working on the Bolt platform, we have <br>
+            been strategic IoT consultants to various Fortune 500 companies.</p>
+    </div>
+    <div class="mv">
+        <div>
+            <img id="mv-img" src="https://i.ibb.co/gdTHtRT/about-us-vision.png" alt="about_us_vision">
+            <div>
+                <h3>Our Vision</h3>
+            <p style="color: gray;">
+                Build technology platforms for better communication.
+            </p>
+            </div>
+        </div>
+        <div>
+            <img id="mv-img" src="https://i.ibb.co/rdywF58/abous-us-mission.png" alt="abous_us_mission">
+            <div>
+                <h3>Our Mission</h3>
+            <p style="color: gray;">To build a Platform to make IoT development quick, easy and low cost<br>
+                for developers. This will help in better connectivity <br>
+                between humans and machines helping us all in getting the most <br>
+                out of the machines.</p>
+            </div>
+        </div>
+     </div>
+         <!--  Code of award section -->
+         <section class="all">
+            <div id="award-title1">AWARDS</div> 
+            <div class="a_ward">
+                <div class="award">
+                     <img src="https://i.ibb.co/9y6nDfd/award1.png" alt >
+                      <div class="b_award">
+                          <span class="award-title"><b>SHOWCASE</b> <br>-----------------</span>
+                             <p>INDO-US STARTUP KONNECT PROGRAM SILICON VALLEY</p>
+                        </div>
+                    </div>
+                     <div class="award">
+                     <img src="https://i.ibb.co/82zsrQ5/award2.png" alt >
+                        <div class="b_award">
+                          <span class="award-title"><b>WINNER</b> <br>-----------------</span>
+                           <p>DST-LOCKHEED MARTIN INDIA INNOVATION 
+                             GROWTH PROGRAM</p>
+                         </div>
+                    </div>
+                    <div class="award">
+                        <img src="https://i.ibb.co/jRqBNwR/award3.png" alt>
+                         <div class="b_award">
+                            <span class="award-title"><b>WINNER</b> <br>------------</span>
+                             <p>POWER OF IDEAS</p>
+                         </div>
+                     </div>
+                      <div class="award">
+                          <img src="https://i.ibb.co/5Ts9kZ1/award4.png" alt >
+                            <div class="b_award">
+                              <span class="award-title"><b>WINNER</b> <br>------------</span>
+                              <p>CHIEF MINISTER AWARD FOR THE BEST START-UP IN
+                                GOA</p>
+                            </div>
+                       </div>
+            </div>     
+            
+            <!-- Code of contact section-->
+
+            <div id="contact-area"><b>GET IN TOUCH</b></div>
+            <div class="DT">
+                <div class="form-c">
+                    <div class="form">
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    
+                        <script>
+    
+                            hbspt.forms.create({
+    
+                                portalId: "4801849",
+    
+                                formId: "b021b49f-c504-4b1d-ad2b-1bb9e587287c"
+    
+                            });
+    
+                        </script>
+    </div>
+                </div>
+                 <div class="location">
+                        <div class="loc-head">Registered Address</div>
+                        <p style="font-size: 16px; color: grey;">Inventrom Private Limited, GURUPUSHPA, Plot No <br> 14, 
+                        Bamon Bhat, Post St Cruz, Merces, North Goa,<br>
+                         403005, India</p>
+                         <div class="loc-head">Contact Us</div>
+                         <span class="cont1">
+                            <img src="https://inventrom.com/images/placeholder.png" style="width: 34px; height: 34px;">
+                            <span>79, 11th Cross Road, Binnamangala <br> Indiranagar, Bengaluru, Karnataka, 560038, <br> India</span>
+                         </span>
+                         <br>
+                         <span class="cont1">
+                            <img src="https://inventrom.com/images/phone-call.png" style="width: 34px; height: 34px;">
+                            <span>(+91) 8881197198</span>
+                         </span>
+                         <br>
+                         <span class="cont1">
+                            <img src="https://inventrom.com/images/email.png" style="width: 34px; height: 34px;">
+                            <span>support@boltiot.com</span>
+                         </span>
+                  </div>
+            </div>
+        
+        <!-- Code of Footer section-->
+        
+            <footer class="footer">
+                    <div>© 2021 Inventrom</div>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/boltiot" target="_blank"><span><img src="https://inventrom.com/images/facebook.png" alt="facebook"></span></a>
+                        <a href="https://twitter.com/boltiot" target="_blank"><span><img src="https://inventrom.com/images/twitter.png" alt="twitter"></span></a>
+                        <a href="https://instagram.com/boltiot" target="_blank"><span><img src="https://inventrom.com/images/instagram.png" alt="instagram"></span></a>
+                    </div>
+                    <a href="#go-up">
+                        <div>
+                            <span><img src="https://inventrom.com/images/double-up-arrow.png" alt="double-up-arrow"></span>
+                        </div>
+                    </a>
+            </footer>
+         </section>
+    
+</body>
+</html>
